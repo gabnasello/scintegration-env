@@ -5,9 +5,10 @@ channels:
 dependencies:
  - python=3.8
  - ipykernel
- - r-biocmanager # Bioconductor version 3.10
+ - r-biocmanager
  - rpy2=3.4.5
  - pip
  - pip:
-   # works for regular pip packages
    - scib==1.0.0
+   - fa2
+   - pyensembl

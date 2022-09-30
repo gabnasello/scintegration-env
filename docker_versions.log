@@ -1,0 +1,36 @@
+-------------------------------
+v. 20220930
+
+Update the datascience container ("-p" argument in the "jl" command)
+
+Installing the following package in the scintegration environment
+
+ - pip:
+   - pyensembl
+
+-------------------------------
+v. 20220804
+
+Installing the following package in the scintegration environment
+
+ - pip:
+   - fa2
+
+-------------------------------
+v. 20220715
+
+Docker container from gnasello/datascience-env:latest
+
+Conda environment with the following packages
+
+name: scintegration
+channels:
+ - conda-forge
+dependencies:
+ - python=3.8
+ - ipykernel
+ - r-biocmanager
+ - rpy2=3.4.5
+ - pip
+ - pip:
+   - scib==1.0.0
