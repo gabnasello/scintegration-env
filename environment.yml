@@ -1,14 +1,8 @@
-# conda package from https://hub.docker.com/r/mumichae/scib-base
-name: scintegration
+name: scib-pipeline-R4.0
 channels:
  - conda-forge
+ - bioconda
 dependencies:
- - python=3.8
- - ipykernel
- - r-biocmanager
- - rpy2=3.4.5
- - pip
- - pip:
-   - scib==1.0.0
-   - fa2
-   - pyensembl
+ - ipywidgets
+ - fa2
+ - pyensembl

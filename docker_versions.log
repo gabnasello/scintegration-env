@@ -1,4 +1,22 @@
 -------------------------------
+v. 20221003
+
+Build conda environments based on theislab work for 
+for benchmarking atlas-level single-cell integration 
+
+https://github.com/theislab/scib-pipeline
+
+Add the following packages to the scib-pipeline-R4.0 environment:
+
+channels:
+ - conda-forge
+ - bioconda
+dependencies:
+ - ipywidgets
+ - fa2
+ - pyensembl
+
+-------------------------------
 v. 20220930
 
 Update the datascience container ("-p" argument in the "jl" command)
