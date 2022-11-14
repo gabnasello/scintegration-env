@@ -1,7 +1,7 @@
 docker build --no-cache -t gnasello/scintegration-env:latest .
 docker build -t gnasello/scintegration-env:latest .
 
-docker build --no-cache -t gnasello/scintegration-env:20221001 .
+docker build --no-cache -t gnasello/scintegration-env:2022114 .
 
 docker images
 docker rmi imageID -f
@@ -20,4 +20,4 @@ docker run -it --rm -p 4444:4444 \
             --workdir /home/host_home \
             --entrypoint /usr/bin/bash \
             --user root \
-            gnasello/scintegration-env:20221001
+            gnasello/scintegration-env:latest
